@@ -15,9 +15,9 @@ def task3():
         
         matrix = []
         
-        for i in range(rows):
-            row = list(map(int, input(f"Введите элементы строки {i + 1} через пробел: ").split()))
-            matrix.append(row)
+        # for i in range(rows)
+        row = list(map(int, input(f"Введите элементы строки {i + 1} через пробел: ").split()))
+        matrix.append(row)
 
         direction = input("Введите направление поворота (по часовой стрелке/против часовой стрелки): ")
 
